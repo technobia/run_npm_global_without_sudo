@@ -1,4 +1,5 @@
 sudo apt-get curl -y
+sudo rm -rf /usr/local/lib/node_modules sudo rm -rf ~/.npm
 mkdir "${HOME}/.npm-packages"
 echo NPM_PACKAGES="${HOME}/.npm-packages" >> ${HOME}/.bashrc
 echo prefix=${HOME}/.npm-packages >> ${HOME}/.npmrc
